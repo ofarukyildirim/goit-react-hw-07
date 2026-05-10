@@ -20,6 +20,7 @@ const App = () => {
       <ContactForm />
       <SearchBox />
       {isLoading && !error && <b>Request in progress..</b>}
+      {error && <b>{error}</b>}
       <ContactList />
     </div>
   );
