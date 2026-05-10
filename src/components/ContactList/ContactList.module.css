@@ -1,0 +1,7 @@
+.set {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 16px 0 0;
+}
